@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+header * {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF2F3;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.brand {
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 46px;
+}
+
+nav li {
+    margin-right: 21px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 240px;
+}
+
+nav li a {
+    color: #737373;
+    font-weight: 700;
+}
+
+header {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.green {
+    color: #96BB7C;
+}
+
+.green-button {
+    background-color: #96BB7C;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.button-padding-1 {
+    padding: 15px 40px;
+}
+
+.button-padding-2 {
+    padding: 15px 25px;
+}
+
+.white-button {
+    border: none;
+    color: #96BB7C;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #96BB7C;
+}
+
+header {
+    text-align: center;
+    max-width: 1322px;
+}
+
+.login {
+    margin-right: 45px;
+    font-weight: 700;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.left-info {
+    height: 660px;
+    transform: translate(20%, 20%);
+}
+
+section > div {
+    float: left;
+    width: 50%;
+}
+
+.student-img {
+    max-width: 100%;
+    height: 660px;
+}
+
+.title {
+    font-size: 58px;
+    margin: 30px 0;
+    line-height: 80px;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px 0;
+    line-height: 30px;
+    color: #737373;
+}
+
+.info-buttons a {
+    display: inline-block;
+    width: fit-content;
+    font-weight: 700;
+}
+
+.info-buttons a:first-child {
+    margin-right: 10px;
+}
+
+.fw {
+    font-weight: 700;
+}
